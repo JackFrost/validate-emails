@@ -1,0 +1,10 @@
+{
+    "name": "jack-frost/validate-emails",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "JackFrost\\ValidateEmails\\": "src/"
+        }
+    },
+    "require": {}
+}

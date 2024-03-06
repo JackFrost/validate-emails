@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  validate-email-app:
+    build:
+      context: ./docker/php
+      dockerfile: Dockerfile
+    image: validate-email-app
+    container_name: validate-email-app
+    restart: always
+    volumes:
+       - ./:/data/
