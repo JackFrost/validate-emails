@@ -6,5 +6,7 @@
             "JackFrost\\ValidateEmails\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^7.0"
+    }
 }
